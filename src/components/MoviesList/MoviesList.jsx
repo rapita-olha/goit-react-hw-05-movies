@@ -6,7 +6,6 @@ import slugify from 'slugify';
 const slug = string => slugify(string, { lower: true });
 
 export default function MovieList({ movies }) {
-  // console.log(moviesArr);
   const location = useLocation();
 
   return (

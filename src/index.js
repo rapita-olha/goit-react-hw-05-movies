@@ -13,6 +13,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root'),
 );
-
-// ---------------------------
-// BrowserRouter - маршрутизация, что бы следило за всей приложкой

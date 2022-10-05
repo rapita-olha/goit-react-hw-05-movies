@@ -1,5 +1,4 @@
-import { NavLink } from 'react-router-dom'; //можно использовать и Link
-// import s from './navigation.module.scss'; - если подключать module.scss здесь, то использовать как и module.css - className={s.link}, а если подключать в общем файл App.scss - то использовать className="link"
+import { NavLink } from 'react-router-dom';
 
 import s from './Navigation.module.scss';
 

@@ -9,7 +9,6 @@ export default function ButtonGoBack() {
   const handleGoBack = () => {
     if (location.state?.from) {
       history.push(location.state.from);
-      // history.push(location.state.from ?? '/');
     }
   };
 

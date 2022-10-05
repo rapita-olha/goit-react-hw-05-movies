@@ -10,7 +10,7 @@ import MoviesList from 'components/MoviesList/MoviesList';
 import s from './MovieView.module.scss';
 
 export default function MovieView() {
-  // query - по которому будем отправлять запрос из инпута
+  
   const [query, setQuery] = useState('');
   const [movies, setMovies] = useState([]);
 
@@ -18,7 +18,6 @@ export default function MovieView() {
   const location = useLocation();
 
   const serchQuery = new URLSearchParams(location.search).get('query');
-  // // console.log(serchQuery);
 
   useEffect(() => {
     if (serchQuery) {
